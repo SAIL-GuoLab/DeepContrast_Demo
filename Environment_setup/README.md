@@ -38,6 +38,12 @@ conda install nibabel tqdm -c conda-forge
 
 Remember to hit 'y' followed by 'Enter' / 'Return' to allow installation of packages.
 
+Further, if you experience the "Intel MKL FATAL ERROR: Cannot load libmkl_intel_thread.dylib" error when running the script after configuration of the environment, you can try to execute the following command:
+
+```
+conda install nomkl numpy scipy scikit-learn numexpr
+```
+
 </p>
 </details>
 
