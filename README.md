@@ -2,7 +2,7 @@
 This is the repository that accompanies the submission **Deep Learning Substitutes Gadolinium in Detecting Functional and Structural Brain Lesions with MRI**, *under review at Nature Biomedical Engineering*.
 
 ## Authors
-Chen Liu, Nanyan Zhu, Dipika Sikka, Xinyang Feng, Haoran Sun, Xueqing Liu, Sabrina Gjerswold-Selleck, Hong-Jian Wei, Pavan S. Upadhyayula, Angeliki Mela, Peter D. Canoll, Cheng-Chia Wu, Andrew F. Laine, Jeffrey A. Lieberman, Frank A. Provenzano, Scott A. Small, Jia Guo*, for the Alzheimer’s Disease Neuroimaging Initiative.
+Chen Liu, Nanyan Zhu, Dipika Sikka, Xinyang Feng, Haoran Sun, Xueqing Liu, Sabrina Gjerswold-Selleck, Hong-Jian Wei, Pavan S. Upadhyayula, Angeliki Mela, Peter D. Canoll, Cheng-Chia Wu, Andrew F. Laine, Jeffrey A. Lieberman, Frank A. Provenzano, Scott A. Small, Jia Guo, for the Alzheimer’s Disease Neuroimaging Initiative.
 
 **Chen Liu and Nanyan Zhu contributed equally to this work and are joint first authors.**
 
