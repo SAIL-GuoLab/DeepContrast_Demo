@@ -16,7 +16,6 @@ import csv
 from scipy import ndimage
 import pandas as pd
 from matplotlib import pyplot as plt
-from robust_loss_pytorch import AdaptiveLossFunction
 from tqdm import tqdm
 
 torch.manual_seed(202001)
@@ -40,7 +39,11 @@ class Solver(object):
 		self.output_ch = config.output_ch
 		self.UnetLayer = config.UnetLayer
 		self.first_layer_numKernel = config.first_layer_numKernel
-		self.device = torch.device('cuda: %d' % config.cuda_idx)
+		try:
+			self.device = torch.device('cuda: %d' % config.cuda_idx)
+		except:
+			print('Cuda device not found. Use CPU instead.')
+			self.device = torch.device('cpu')
 		if 'inference_filename_start_end' in config.__dict__:
 			self.inference_filename_start_end = config.inference_filename_start_end
 
@@ -59,14 +62,10 @@ class Solver(object):
 		# Loss Function
 		if config.loss_function_name == 'MSE':
 			self.loss_function_name = 'MSE'
-			self.loss_function = MSELoss()
 		elif config.loss_function_name == 'SmoothL1':
 			self.loss_function_name = 'SmoothL1'
-			self.loss_function = SmoothL1Loss()
 		elif config.loss_function_name == 'CVPR_Adaptive_loss':
 			self.loss_function_name = 'CVPR_Adaptive_loss'
-			self.reference_loss_function = MSELoss()
-			self.loss_function = AdaptiveLossFunction(num_dims = 1, float_dtype = np.float32, alpha_init = 2, alpha_hi = 3.5, device = self.device)
 
 		# Training settings
 		self.num_epochs = config.num_epochs
@@ -126,7 +125,10 @@ class Solver(object):
 
 		if str(which_unet).isdigit() == True:
 			all_unet_path = os.path.join(self.current_model_saving_path, '%s-%s-%.4f-%s-%d-%s%s.pkl' %(self.model_type, self.optimizer_choice, self.initial_lr, self.loss_function_name, self.batch_size, 'epoch', str(which_unet).zfill(2)))
-			self.unet.load_state_dict(torch.load(all_unet_path))
+			if torch.cuda.is_available():
+				self.unet.load_state_dict(torch.load(all_unet_path))
+			else:
+				self.unet.load_state_dict(torch.load(all_unet_path, map_location = self.device))
 		else:
 			print('Input argument which_unet is invalid. Has to be "best" or "last" or an integer representing the epoch.')
 
