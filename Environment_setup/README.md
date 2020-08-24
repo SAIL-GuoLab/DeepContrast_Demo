@@ -281,6 +281,6 @@ conda install nibabel -c conda-forge
 
 <details><summary> If you do not have Anaconda installed. </summary>
 <p>
-  You can refer to [this tutorial](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step01_manage_anaconda_on_GCP).
+  You can refer to (this tutorial)(https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step01_manage_anaconda_on_GCP).
 </p>
 </details>
