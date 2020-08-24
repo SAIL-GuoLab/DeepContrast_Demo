@@ -1,6 +1,36 @@
 # DeepContrast_Demo
 This is the repository that accompanies the submission **Deep Learning Substitutes Gadolinium in Detecting Functional and Structural Brain Lesions with MRI**, *under review at Nature Biomedical Engineering*.
 
+## Overview of this repository
+```
+DeepContrast_Demo
+    ├── Test_retest_data_complete
+    |   ├── (*) NatureBME_share_nonContrast
+    |   ├── (*) NatureBME_share_GBCAuptake
+    |   ├── (*) NatureBME_share_GBCApredicted
+    |   ├── (*) NatureBME_share_brainMask
+    |   └── (*) NatureBME_share_tissueLabel
+    |
+    ├── Healthy_Human_Brain_Model
+    |   ├── deep_learning_model
+    |   |   ├── data_loader.py
+    |   |   ├── network.py
+    |   |   └── solver.py
+    |   |
+    |   └── saved_model_weights
+    |       └──ResAttU_Net-SGD-0.1000-CVPR_Adaptive_loss-4-epoch18.pkl
+    |
+    ├── Demo_scripts
+    |   ├── generate_new_predictions.py
+    |   ├── verify_old_new_predictions_identical.py
+    |   ├── visual_inspection.py
+    |   └── test_retest_evaluation.py
+    |
+    └── Newly_generated_prediction
+```
+**Test_retest_data_complete** contains the 
+
+
 ## Authors
 Chen Liu, Nanyan Zhu, Dipika Sikka, Xinyang Feng, Haoran Sun, Xueqing Liu, Sabrina Gjerswold-Selleck, Hong-Jian Wei, Pavan S. Upadhyayula, Angeliki Mela, Peter D. Canoll, Cheng-Chia Wu, Andrew F. Laine, Jeffrey A. Lieberman, Frank A. Provenzano, Scott A. Small, Jia Guo, for the Alzheimer’s Disease Neuroimaging Initiative.
 
