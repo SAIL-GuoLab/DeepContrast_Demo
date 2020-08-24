@@ -1,15 +1,30 @@
 ## Environment_setup
 
 ### How to configure the environment?
+
+<details><summary> If you already have Anaconda installed. </summary>
+<p>
 If you already have anaconda installed, it's great! You will only need to run the following command in your command line / terminal / bash, after navigating to this folder.
 
 ```
 conda env create -f DeepContrast.yml
 ```
 
-Anaconda shall be able to configure the environment correctly. If not, you may need to manually install the packages. Also, if you do not have anaconda installed, you can refer to [this tutorial](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step01_manage_anaconda_on_GCP).
+Anaconda shall be able to configure the environment correctly.
 
-<details><summary> The exhaustive (but maybe unnecessary) list, directly exported from the environment where we developed the model, can be found here.</summary>
+<details><summary> If it works. </summary>
+<p>
+Congrats! Nothing else to say.
+</p>
+</details>
+
+<details><summary> If it doesn't work. </summary>
+<p>
+You may need to manually install the packages.
+  
+  You have the following options.
+  
+  <details><summary> 1. The exhaustive (but maybe unnecessary) list, directly exported from the environment where we developed the model, can be found here. </summary>
 <p>
   
 ```
@@ -241,8 +256,7 @@ dependencies:
 
 
 
-**As a shortcut, you can try the following commands.**
-<details><summary> We tested it on a Windows computer to reproduce an environment that can run the scripts. </summary>
+<details><summary> 2. As a shortcut, you can try the following commands. We tested it on a Windows computer to reproduce an environment that can run the scripts. </summary>
 <p>
 
 ```
@@ -253,5 +267,20 @@ conda install python=3.7 numpy scipy scikit-image scikit-learn -c anaconda
 conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 conda install nibabel -c conda-forge
 ```
+
 </p>
 </details>
+  
+</p>
+</details>
+
+
+</p>
+</details>
+
+
+
+
+ Also, if you do not have anaconda installed, you can refer to [this tutorial](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step01_manage_anaconda_on_GCP).
+
+
