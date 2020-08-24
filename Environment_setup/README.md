@@ -9,7 +9,7 @@ conda env create -f DeepContrast.yml
 
 Anaconda shall be able to configure the environment correctly. If not, you may need to manually install the packages. Also, if you do not have anaconda installed, you can refer to [this tutorial](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step01_manage_anaconda_on_GCP).
 
-<details><summary> ==> The exhaustive (but maybe unnecessary) list, directly exported from the environment where we developed the model, can be found here.</summary>
+<details><summary> The exhaustive (but maybe unnecessary) list, directly exported from the environment where we developed the model, can be found here.</summary>
 <p>
   
 ```
@@ -239,3 +239,17 @@ dependencies:
 </p>
 </details>
 
+
+<details><summary> **As a shortcut, you can try the following commands.** We tested it on a Windows computer to reproduce an environment that can run the scripts. </summary>
+<p>
+
+```
+conda create -n DeepContrast
+
+conda activate DeepContrast
+conda install python=3.7 numpy scipy scikit-image scikit-learn -c anaconda
+conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+conda install nibabel -c conda-forge
+```
+</p>
+</details>
