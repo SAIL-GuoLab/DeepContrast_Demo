@@ -24,7 +24,24 @@ You may need to manually install the packages.
   
   You have the following options.
   
-  <details><summary> 1. The exhaustive (but maybe unnecessary) list, directly exported from the environment where we developed the model, can be found here. </summary>
+  <details><summary> 1. [RECOMMENDED] As a shortcut, you can try the following commands. We tested it on a Windows computer to reproduce an environment that can run the scripts. </summary>
+<p>
+
+```
+conda create -n DeepContrast
+
+conda activate DeepContrast
+conda install python=3.7 numpy scipy scikit-image scikit-learn seaborn -c anaconda
+conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+conda install nibabel tqdm -c conda-forge
+```
+
+Remember to hit 'y' followed by 'Enter' / 'Return' to allow installation of packages.
+
+</p>
+</details>
+
+  <details><summary> 2. The exhaustive (but maybe unnecessary) list, directly exported from the environment where we developed the model, can be found here. </summary>
 <p>
   
 ```
@@ -253,27 +270,9 @@ dependencies:
 ```
 </p>
 </details>
-
-
-
-<details><summary> 2. As a shortcut, you can try the following commands. We tested it on a Windows computer to reproduce an environment that can run the scripts. </summary>
-<p>
-
-```
-conda create -n DeepContrast
-
-conda activate DeepContrast
-conda install python=3.7 numpy scipy scikit-image scikit-learn -c anaconda
-conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
-conda install nibabel -c conda-forge
-```
-
-</p>
-</details>
   
 </p>
 </details>
-
 
 </p>
 </details>
@@ -281,6 +280,6 @@ conda install nibabel -c conda-forge
 
 <details><summary> If you do not have Anaconda installed. </summary>
 <p>
-  You can refer to [this tutorial!](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step01_manage_anaconda_on_GCP).
+  You can refer to this tutorial: https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step01_manage_anaconda_on_GCP.
 </p>
 </details>
