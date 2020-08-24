@@ -49,6 +49,17 @@ DeepContrast_Demo
 
 *More detailed descriptions can be found in the respective folders.*
 
+## Preparing the Anaconda Environment.
+You can use the following commands to prepare the anaconda environment. If you don't have anaconda installed, you can refer to detailed instructions at "./Environment_setup/".
+```
+conda create -n DeepContrast
+
+conda activate DeepContrast
+conda install python=3.7 numpy scipy scikit-image scikit-learn seaborn -c anaconda
+conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+conda install nibabel tqdm -c conda-forge
+```
+
 ## Authors
 Chen Liu, Nanyan Zhu, Dipika Sikka, Xinyang Feng, Haoran Sun, Xueqing Liu, Sabrina Gjerswold-Selleck, Hong-Jian Wei, Pavan S. Upadhyayula, Angeliki Mela, Peter D. Canoll, Cheng-Chia Wu, Andrew F. Laine, Jeffrey A. Lieberman, Frank A. Provenzano, Scott A. Small, Jia Guo, for the Alzheimer’s Disease Neuroimaging Initiative.
 
