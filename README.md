@@ -9,12 +9,12 @@ Please note that the code was developed on Linux, and it may require some adjust
 ## Overview of this repository
 ```
 DeepContrast_Demo
-    ├── Test_retest_data_complete
-    |   ├── (*) NatureBME_share_nonContrast
-    |   ├── (*) NatureBME_share_GBCAuptake
-    |   ├── (*) NatureBME_share_GBCApredicted
-    |   ├── (*) NatureBME_share_brainMask
-    |   └── (*) NatureBME_share_tissueLabel
+    ├── (#) Test_retest_data_complete
+    |   ├── (#) NatureBME_share_nonContrast
+    |   ├── (#) NatureBME_share_GBCAuptake
+    |   ├── (#) NatureBME_share_GBCApredicted
+    |   ├── (#) NatureBME_share_brainMask
+    |   └── (#) NatureBME_share_tissueLabel
     |
     ├── Healthy_Human_Brain_Model
     |   ├── deep_learning_model
@@ -22,8 +22,8 @@ DeepContrast_Demo
     |   |   ├── network.py
     |   |   └── solver.py
     |   |
-    |   └── saved_model_weights
-    |       └──ResAttU_Net-SGD-0.1000-CVPR_Adaptive_loss-4-epoch18.pkl
+    |   └── (#) saved_model_weights
+    |       └── (#) ResAttU_Net-SGD-0.1000-CVPR_Adaptive_loss-4-epoch18.pkl
     |
     ├── Demo_scripts
     |   ├── generate_new_predictions.py
@@ -35,6 +35,9 @@ DeepContrast_Demo
     |
     └── Environment_setup
         └── DeepContrast.yml
+
+(#): Download from Google Drive.
+
 ```
 ### Explanations of the folders:
 **Test_retest_data_complete** is supposed to contain all data from the test-retest reliability dataset. However, as GitHub has a strict data upload limit of 100 MB, we have to omit the actual data files from this repository, and instead make these files available upon request on Google Drive. Currently the Chief Editor and the reviewers will have access to the link pointing to the Google Drive folder.
