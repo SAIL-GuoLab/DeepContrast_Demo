@@ -49,7 +49,7 @@ DeepContrast_Demo
 
 *More detailed descriptions can be found in the respective folders.*
 
-## Preparing the Anaconda Environment.
+## Preparing the Anaconda Environment to Execute the Code.
 You can use the following commands to prepare the anaconda environment. If you don't have anaconda installed, you can refer to detailed instructions at "./Environment_setup/".
 ```
 conda create -n DeepContrast
