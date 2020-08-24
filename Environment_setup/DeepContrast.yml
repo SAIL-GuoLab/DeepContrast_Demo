@@ -1,0 +1,4 @@
+name: DeepContrast
+channels:
+  - defaults
+prefix: C:\Anaconda3\envs\DeepContrast
