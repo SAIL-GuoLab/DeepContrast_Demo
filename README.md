@@ -8,6 +8,9 @@ Chen Liu, Nanyan Zhu, Dipika Sikka, Xinyang Feng, Haoran Sun, Xueqing Liu, Sabri
 
 **Correspondance: Jia Guo (jg3400@columbia.edu).**
 
+## Link to Manuscript
+To be added.
+
 ## Code availability
 The trained Healthy Human Brain Model, alongside the test-retest reliability dataset (n = 11, each with two test-retest acquisitions) with both non-contrast scans and ground truth GBCA-uptake maps, is available on GitHub (link to be announced). The scripts that predict GBCA-uptake maps from non-contrast scans, as well as the script performing quantitative evaluations, are included. All code and data (except for those from public datasets) are proprietary and managed by the Columbia Technology Ventures Office of Intellectual Property. The custom training code and large-scale datasets are not publicly available.
 
