@@ -240,7 +240,8 @@ dependencies:
 </details>
 
 
-<details><summary> **As a shortcut, you can try the following commands.** We tested it on a Windows computer to reproduce an environment that can run the scripts. </summary>
+**As a shortcut, you can try the following commands.**
+<details><summary> We tested it on a Windows computer to reproduce an environment that can run the scripts. </summary>
 <p>
 
 ```
