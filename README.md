@@ -26,11 +26,17 @@ DeepContrast_Demo
     |   ├── visual_inspection.py
     |   └── test_retest_evaluation.py
     |
-    └── Newly_generated_prediction
+    ├── Newly_generated_prediction
+    |
+    └── Environment_setup
+        └── DeepContrast.yml
 ```
->>Explanations of the folders:
-**Test_retest_data_complete** contains the 
-
+### Explanations of the folders:
+**Test_retest_data_complete** is supposed to contain all data from the test-retest reliability dataset. However, as GitHub has a strict data upload limit of 100 MB, we have to omit the actual data files from this repository, and instead make these files available upon request on Google Drive. Currently the Chief Editor and the potential reviewers will have access to the link pointing to the Google Drive folder.
+**Healthy_Human_Brain_Model** contains the backbone of the Healthy Human Brain Model (both the architecture and the trained model weights) introduced in our manuscript. Currently only the customized testing code is made available.
+**Demo_scripts** contain the four sample scripts to demonstrate the model.
+**Newly_generated_prediction** is an empty folder and will be filled with new predictions once "./Demo_scripts/generate_new_predictions.py" is executed.
+**Environment_setup** contains the anaconda configuration file "DeepContrast.yml" with which one can quickly configure an environment suitable to run our scripts, given that the operating system is Linux. We have tested it on a Windows system and as expected it doesn't work. For incompatible operating systems, we would need to manually install the required packages (and anaconda as well if not installed).
 
 ## Authors
 Chen Liu, Nanyan Zhu, Dipika Sikka, Xinyang Feng, Haoran Sun, Xueqing Liu, Sabrina Gjerswold-Selleck, Hong-Jian Wei, Pavan S. Upadhyayula, Angeliki Mela, Peter D. Canoll, Cheng-Chia Wu, Andrew F. Laine, Jeffrey A. Lieberman, Frank A. Provenzano, Scott A. Small, Jia Guo, for the Alzheimer’s Disease Neuroimaging Initiative.
