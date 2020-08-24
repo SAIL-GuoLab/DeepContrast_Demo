@@ -14,7 +14,7 @@ Anaconda shall be able to configure the environment correctly.
 
 <details><summary> If it works. </summary>
 <p>
-Congrats! Nothing else to say.
+  Congrats! Nothing else to say.
 </p>
 </details>
 
@@ -279,8 +279,8 @@ conda install nibabel -c conda-forge
 </details>
 
 
-
-
- Also, if you do not have anaconda installed, you can refer to [this tutorial](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step01_manage_anaconda_on_GCP).
-
-
+<details><summary> If you do not have Anaconda installed. </summary>
+<p>
+  You can refer to [this tutorial](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step01_manage_anaconda_on_GCP).
+</p>
+</details>
