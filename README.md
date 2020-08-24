@@ -28,6 +28,7 @@ DeepContrast_Demo
     |
     └── Newly_generated_prediction
 ```
+>>Explanations of the folders:
 **Test_retest_data_complete** contains the 
 
 
