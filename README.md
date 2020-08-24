@@ -1,6 +1,8 @@
 # DeepContrast_Demo
 This is the repository that accompanies the submission **Deep Learning Substitutes Gadolinium in Detecting Functional and Structural Brain Lesions with MRI**, *under review at Nature Biomedical Engineering*.
 
+Once missing files and model weights are downloaded from Google Drive and placed at the correct locations, the files and scripts shared in this repository shall be enough for an experienced deep learning researcher to replicate the results we reported in the test-retest reliability study.
+
 ## Overview of this repository
 ```
 DeepContrast_Demo
