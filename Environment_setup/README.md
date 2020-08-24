@@ -9,7 +9,7 @@ conda env create -f DeepContrast.yml
 
 Anaconda shall be able to configure the environment correctly. If not, you may need to manually install the packages. Also, if you do not have anaconda installed, you can refer to [this tutorial](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step01_manage_anaconda_on_GCP).
 
-<details><summary>The exhaustive (but maybe unnecessary) list, directly exported from the environment where we developed the model, can be found below.</summary>
+<details><summary> ==> The exhaustive (but maybe unnecessary) list, directly exported from the environment where we developed the model, can be found here.</summary>
 <p>
   
 ```
