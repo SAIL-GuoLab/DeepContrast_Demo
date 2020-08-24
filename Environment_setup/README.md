@@ -9,8 +9,9 @@ conda env create -f DeepContrast.yml
 
 Anaconda shall be able to configure the environment correctly. If not, you may need to manually install the packages. Also, if you do not have anaconda installed, you can refer to [this tutorial](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step01_manage_anaconda_on_GCP).
 
-The exhaustive (but maybe unnecessary) list can be found below.
-
+<details><summary>The exhaustive (but maybe unnecessary) list, directly exported from the environment where we developed the model, can be found below.</summary>
+<p>
+  
 ```
 channels:
   - simpleitk
@@ -235,4 +236,6 @@ dependencies:
     - torch-dct==0.1.5
     - torchio==0.13.16
 ```
+</p>
+</details>
 
