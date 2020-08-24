@@ -61,6 +61,7 @@ conda activate DeepContrast
 conda install python=3.7 numpy scipy scikit-image scikit-learn seaborn -c anaconda
 conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 conda install nibabel tqdm -c conda-forge
+conda install cudatoolkit=10.2 -c pytorch
 ```
 
 ## Authors
