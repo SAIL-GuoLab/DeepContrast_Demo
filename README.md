@@ -3,6 +3,9 @@ This is the repository that accompanies the submission **Deep Learning Substitut
 
 Once missing files and model weights are downloaded from Google Drive and placed at the correct locations, the files and scripts shared in this repository shall be enough for an experienced deep learning researcher to replicate the results we reported in the test-retest reliability study.
 
+Please note that the code was developed on Linux, and it may require some adjustments if you intend to run it on a different operating system. For example, on Linux the path format uses '/' as a separator while on Windows it uses '\\' instead.
+
+
 ## Overview of this repository
 ```
 DeepContrast_Demo
