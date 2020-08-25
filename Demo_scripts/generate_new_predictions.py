@@ -6,18 +6,10 @@ import random
 import numpy as np
 import nibabel as nibabel
 from glob import glob
-from scipy import stats
 import matplotlib.pyplot as plt
-from skimage.morphology import disk
-from skimage.filters import rank
-from sklearn import linear_model
-from scipy import ndimage
 from scipy.stats import pearsonr, spearmanr
-import seaborn as sns
 import warnings
 import nibabel as nib
-import csv
-import pandas as pd
 
 deep_learning_model_path = '../Healthy_Human_Brain_Model/deep_learning_model/'
 model_weights_path = '../Healthy_Human_Brain_Model/saved_model_weights/'
@@ -34,8 +26,8 @@ class config():
     img_ch = int(1)
     output_ch = int(1)
     num_epochs = int(50)
-    num_workers = int(0)
-    mode = 'train'
+    num_workers = int(1)
+    mode = 'inference'
     
     model_type = 'ResAttU_Net' # 'U_Net/R2U_Net/AttU_Net/R2AttU_Net/ResAttU_Net'
     optimizer_choice = 'SGD'
