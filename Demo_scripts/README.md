@@ -38,4 +38,33 @@ Partial results (displayed in the terminal) when running the code above:
 
 **!!! Note !!!** Currently, we set the tolerance to declare corresponding voxels to be the same at 1e-8 (which is way smaller than either the dynamic range of these scans or the natural variance among voxels). Due to hardware differences (different computers may exhibit slightly different rounding errors), this tolerance may be too strict if you test the model on your device. We suggest that if the program fails to declare the old and new predictions to be identical you may try a slightly larger tolerance, such as 1e-6.
 
+### visual_inspection.py
 
+This script qualitatively displays the performances of the proposed deep learning approach, to visually showcase the higher between-acquisition coherence of the GBCA-predicted maps over the GBCA-uptake maps. Each run of the script randomly selects a subject and produces a figure with 2x3 subplots using scans from the same subject.
+
+Execution:
+```
+python visual_inspection.py
+```
+
+Sample figure produced when running the code above:
+
+![Test_retest_sample_visual_inspection.png](https://github.com/SAIL-GuoLab/DeepContrast_Demo/blob/master/misc/Test_retest_sample_visual_inspection.png)
+
+
+### test_retest_evaluation.py
+
+This script performs the quantitative evalution of the test-retest reliability. The numbers calculated and their implications are quite thoroughly described in the script outputs. Please note that here we not only generate the same numbers we reported (test-retest reliability between two consecutive acquisitions, for GBCA-uptake maps and GBCA-predicted maps), but also print out a metric not included in our manuscript but still worth showing here (concordance between GBCA-uptake maps and GBCA-predicted maps). With both of these in place, we demonstrate that our deep learning approach not only has great test-retest reliability, but also truly carries GBCA-equivalent information (instead of producing consistent/identical yet meaningless graphs).
+
+Execution:
+```
+python test_retest_evaluation.py
+```
+
+Partial results (displayed in the terminal) when running the code above:
+
+![Partial_output_test_retest_evaluation.PNG](https://github.com/SAIL-GuoLab/DeepContrast_Demo/blob/master/misc/Partial_output_test_retest_evaluation.PNG)
+
+Sample bar plot saved when running the code above (Shall be the same as the first row in Figure 3c of our manuscript, except that it does not have asterisks plotted):
+
+![Test_retest_sample_bar_plot_for_whole_brain.png](https://github.com/SAIL-GuoLab/DeepContrast_Demo/blob/master/misc/Test_retest_sample_bar_plot_for_whole_brain.png)
