@@ -1,6 +1,6 @@
 ## Test_retest_data_complete 
 
-Ideally there shall be five folders here, namely:
+According to our design, there shall be five folders here, namely:
 
 ```
 ├── (*) NatureBME_share_nonContrast
