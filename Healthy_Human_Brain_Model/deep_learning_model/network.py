@@ -43,7 +43,7 @@ class conv_block(nn.Module):
     def forward(self,x):
         x = self.conv(x)
         return x
-
+        
 
 class resconv_block(nn.Module):
     def __init__(self, ch_in, ch_out):
