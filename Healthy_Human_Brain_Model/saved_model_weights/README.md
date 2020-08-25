@@ -1,7 +1,5 @@
 ## saved_model_weights
 
-As explained previously, the trained model weight is too large (> 100 MB) to be stored here on GitHub. We have to host these data files on Google Drive.
+As explained previously, the trained model weight is too large (> 100 MB) to be stored here on GitHub. We have to host these data files on [Google Drive](https://drive.google.com/drive/folders/1l5GU6E0iCHbs24ZNzN6uIQgbQud1DZ3e?usp=sharing).
 
-Currently the link to the Google Drive folder is only shared to the Chief Editor, who can then forward it to the reviewers. These data shall be available upon reasonable request to Jia Guo (jg3400@columbia.edu) after permission from the Columbia Technology Ventures Office of Intellectual Property.
-
-If you do have the access, please make sure you place that file in the correct location (this folder) once you downloaded it.
+Please make sure you place the file in the correct location (this folder) once you downloaded it.
