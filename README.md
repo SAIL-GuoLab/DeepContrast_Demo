@@ -3,7 +3,7 @@ This is the repository that accompanies the submission **Deep Learning Substitut
 
 Due to file size limits of GitHub (nothing > 100 MB allowed), the NifTI scans and model weights cannot be uploaded to this repository. Instead, we stored them in [Google Drive](https://drive.google.com/drive/folders/1l5GU6E0iCHbs24ZNzN6uIQgbQud1DZ3e?usp=sharing) and currently these data and files shall be publicly available. Once missing files and model weights are downloaded from Google Drive and placed at the correct locations, an experienced deep learning researcher shall be able to replicate the results we reported in the test-retest reliability study.
 
-<ins>Due to the Google Drive sharing settings in our institution, any new incoming requests to access the data and files will need our permissions to proceed. Please give us up to a few days to process your request. We aim to process the request in the same day. </ins>
+<ins>Due to the Google Drive sharing settings in our institution, any new incoming request to access the shared folder will need our permissions to proceed. Please give us up to a few days to process your request. We aim to process the request in the same day. </ins>
 
 Please note that the code was developed on Linux (Ubuntu 16.04 LTS), and it may require some adjustments if you intend to run it on a different operating system. Future updates may provide cross-platform versions or OS-specific versions upon request.
 
