@@ -48,7 +48,7 @@ DeepContrast_Demo
 
 **Newly_generated_prediction** is an empty folder and will be filled with new predictions once "./Demo_scripts/generate_new_predictions.py" is executed.
 
-**Environment_setup** contains the anaconda configuration file "DeepContrast.yml" with which one can quickly configure an environment suitable to run our scripts. If it doesn't work on your machine, you would probably need to manually install the required packages (and anaconda as well if not installed).
+**Environment_setup** contains the anaconda configuration file "DeepContrast.yml" with which one can quickly configure an environment suitable to run our scripts. If it doesn't work on your machine, you would probably need to manually install the required packages. More details can be found [here](https://github.com/SAIL-GuoLab/DeepContrast_Demo/tree/master/Environment_setup).
 
 *More detailed descriptions can be found in the respective folders.*
 
