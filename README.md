@@ -1,7 +1,7 @@
 # DeepContrast_Demo
 This is the repository that accompanies the submission **Deep Learning Substitutes Gadolinium in Detecting Functional and Structural Brain Lesions with MRI**, *under review at Nature Biomedical Engineering*.
 
-Once missing files and model weights are downloaded from Google Drive and placed at the correct locations, the files and scripts shared in this repository shall be enough for an experienced deep learning researcher to replicate the results we reported in the test-retest reliability study.
+Due to file size limits of GitHub (nothing > 100 MB allowed), the NifTI scans and model weights cannot be uploaded to this repository. Instead, we stored them in Google Drive and currently the link is only shared to the Chief Editor who can then forward it to the reviewers. These data shall be available upon reasonable request to Jia Guo (jg3400@columbia.edu) after permission from the Columbia Technology Ventures Office of Intellectual Property. Once missing files and model weights are downloaded from Google Drive and placed at the correct locations, the files and scripts shared in this repository shall be enough for an experienced deep learning researcher to replicate the results we reported in the test-retest reliability study.
 
 Please note that the code was developed on Linux, and it may require some adjustments if you intend to run it on a different operating system. For example, on Linux the path format uses a forward slash as a separator while on Windows it uses two backward slashes instead.
 
