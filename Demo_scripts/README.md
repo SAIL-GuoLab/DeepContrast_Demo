@@ -18,8 +18,24 @@ This script runs the trained Healthy Human Brain Model to generate GBCA-predicte
 
 The resulting scans shall be identical to those in (../Test_retest_data_complete/NatureBME_share_GBCApredicted/EVERYTHING.nii.gz)
 
+Execution:
+```
+python verify_old_new_predictions_identical.py
+```
+
 ### verify_old_new_predictions_identical.py
 
 This script, as a supplement to the previous script, verifies that the newly generated GBCA-predicted scans are indeed the same as what we generated before using the same inputs and same model. It loads the old and new scans and confirm that not a single voxel is different in each of the scans.
 
-**Note: Currently, we set the tolerance to declare voxels to be the same at 1e-8 (which is way smaller than either the dynamic range of such scans or the natural variance among voxels). Due to hardware differences (different computers have slightly different ), this tolerance may be too strict if you test the model**
+Execution:
+```
+python verify_old_new_predictions_identical.py
+```
+
+Partial results (displayed in the terminal) when running the code above:
+
+![Partial_output_verify_old_new_predictions_identical.PNG](https://github.com/SAIL-GuoLab/DeepContrast_Demo/blob/master/misc/Partial_output_verify_old_new_predictions_identical.PNG)
+
+**Note: Currently, we set the tolerance to declare corresponding voxels to be the same at 1e-8 (which is way smaller than either the dynamic range of these scans or the natural variance among voxels). Due to hardware differences (different computers may exhibit slightly different rounding errors), this tolerance may be too strict if you test the model on your device. We suggest that if the program fails to declare the old and new predictions to be identical you may try a slightly larger tolerance, such as 1e-6.**
+
+
