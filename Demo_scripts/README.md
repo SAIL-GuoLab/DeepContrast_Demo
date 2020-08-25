@@ -10,4 +10,16 @@ conda activate DeepContrast
 
 ### generate_new_predictions.py
 
-This 
+This script runs the trained Healthy Human Brain Model to generate GBCA-predicted maps using the non-contrast scans as the input. Specifically,
+1. It follows the processes specified in the solver file (../Healthy_Human_Brain_Model/deep_learning_model/solver.py).
+2. It loads the model weights (../saved_model_weights/ResAttU_Net-SGD-0.1000-CVPR_Adaptive_loss-4-epoch18.pkl) into the Residual Attention U-Net implemented in the network file (../Healthy_Human_Brain_Model/deep_learning_model/network.py)
+3. It grabs the non-contrast scans (../Test_retest_data_complete/NatureBME_share_nonContrast/EVERYTHING.nii.gz) and loads them into the model using the data loader defined in (../Healthy_Human_Brain_Model/deep_learning_model/data_loader.py).
+4. It uses the model and weights to generate GBCA-predicted maps and store them in (../Newly_generated_prediction/).
+
+The resulting scans shall be identical to those in (../Test_retest_data_complete/NatureBME_share_GBCApredicted/EVERYTHING.nii.gz)
+
+### verify_old_new_predictions_identical.py
+
+This script, as a supplement to the previous script, verifies that the newly generated GBCA-predicted scans are indeed the same as what we generated before using the same inputs and same model. It loads the old and new scans and confirm that not a single voxel is different in each of the scans.
+
+**Note: Currently, we set the tolerance to declare voxels to be the same at 1e-8 (which is way smaller than either the dynamic range of such scans or the natural variance among voxels). Due to hardware differences (different computers have slightly different ), this tolerance may be too strict if you test the model 
