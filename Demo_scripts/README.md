@@ -20,7 +20,7 @@ The resulting scans shall be identical to those in (../Test_retest_data_complete
 
 Execution:
 ```
-python verify_old_new_predictions_identical.py
+python generate_new_predictions.py
 ```
 
 ### verify_old_new_predictions_identical.py
