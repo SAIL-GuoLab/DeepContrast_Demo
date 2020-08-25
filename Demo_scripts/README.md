@@ -36,7 +36,7 @@ Partial results (displayed in the terminal) when running the code above:
 
 ![Partial_output_verify_old_new_predictions_identical.PNG](https://github.com/SAIL-GuoLab/DeepContrast_Demo/blob/master/misc/Partial_output_verify_old_new_predictions_identical.PNG)
 
-**!!! Note !!!** Currently, we set the tolerance to declare corresponding voxels to be the same at 1e-8 (which is a million times smaller than either the dynamic range of these scans or the natural variance among voxels). Due to hardware differences (different computers may exhibit slightly different rounding errors), this tolerance may be too strict if you test the model on your device. We suggest that if the program fails to declare the old and new predictions to be identical you may try a slightly larger tolerance, such as 1e-6.
+**!!! Note !!!** Currently, we set the tolerance to declare corresponding voxels to be the same at 1e-8 (which is millions of times smaller than either the dynamic range of these scans or the natural variance among voxels). Due to hardware differences (different computers may exhibit slightly different rounding errors), this tolerance may be too strict if you test the model on your device. We suggest that if the program fails to declare the old and new predictions to be identical you may try a slightly larger tolerance, such as 1e-6.
 
 ### visual_inspection.py
 
