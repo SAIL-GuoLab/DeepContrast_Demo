@@ -54,7 +54,7 @@ Sample figure produced when running the code above:
 
 ### test_retest_evaluation.py
 
-This script performs the quantitative evalution of the test-retest reliability. The numbers calculated and their implications are quite thoroughly described in the script outputs.
+This script performs the quantitative evaluation of the test-retest reliability. The numbers calculated and their implications are quite thoroughly described in the script outputs.
 
 Please note that here we not only generate the same numbers we reported (test-retest reliability between two consecutive acquisitions, for GBCA-uptake maps and GBCA-predicted maps), but also print out a metric not included in our manuscript but still worth showing here (concordance between GBCA-uptake maps and GBCA-predicted maps).
 
