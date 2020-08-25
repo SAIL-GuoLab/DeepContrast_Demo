@@ -22,4 +22,4 @@ The resulting scans shall be identical to those in (../Test_retest_data_complete
 
 This script, as a supplement to the previous script, verifies that the newly generated GBCA-predicted scans are indeed the same as what we generated before using the same inputs and same model. It loads the old and new scans and confirm that not a single voxel is different in each of the scans.
 
-**Note: Currently, we set the tolerance to declare voxels to be the same at 1e-8 (which is way smaller than either the dynamic range of such scans or the natural variance among voxels). Due to hardware differences (different computers have slightly different ), this tolerance may be too strict if you test the model **
+**Note: Currently, we set the tolerance to declare voxels to be the same at 1e-8 (which is way smaller than either the dynamic range of such scans or the natural variance among voxels). Due to hardware differences (different computers have slightly different ), this tolerance may be too strict if you test the model**
