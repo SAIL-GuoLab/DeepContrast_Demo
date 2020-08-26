@@ -52,6 +52,6 @@ Remember to hit 'y' followed by 'Enter' / 'Return' to allow installation of pack
 
 <details><summary> If you do not have Anaconda installed. </summary>
 <p>
-  You can refer to [this tutorial](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step01_manage_anaconda_on_GCP#step-by-step-instructions) we wrote for a deep learning course. The step-by-step instructions provides a brief guide on how to download and set up anaconda as well as how to prepare environments and install individual packages. The specific packages to be downloaded for our purpose (in environment "DeepContrast") will be different from what listed in that tutorial for the course. Specifically, the required packages can be found here.
+  You can refer to [this tutorial](https://github.com/RnR-2018/Deep-learning-with-PyTorch-and-GCP/tree/master/Step01_manage_anaconda_on_GCP#step-by-step-instructions) we wrote for a deep learning course. The step-by-step instructions provides a brief guide on how to download and set up anaconda as well as how to prepare environments and install individual packages. The specific packages to be downloaded for our purpose (in environment "DeepContrast") will be different from what listed in that tutorial for the course. The required packages in our purpose are listed above.
 </p>
 </details>
