@@ -76,7 +76,7 @@ Chen Liu*, Nanyan Zhu*, Dipika Sikka, Xinyang Feng, Haoran Sun, Xueqing Liu, Sab
 ## Link to Manuscript
 Liu C. & Zhu N., et al. Deep Learning Substitutes Gadolinium in Detecting Functional and Structural Brain Lesions with MRI. 26 August 2020, PREPRINT (Version 1) available at Research Square. Under Review at Nature Research. https://doi.org/10.21203/rs.3.rs-56518/v1
 
-Please note that the version above is not the most up-to-date version yet. There are minor differences as the latest version submitted to the chief editor via the manuscript tracking system.
+Please note that the version above is not the most up-to-date version yet. There are minor differences between the one above and the latest version submitted to the chief editor via the manuscript tracking system.
 
 ## Code availability
 The trained Healthy Human Brain Model, alongside the test-retest reliability dataset (n = 11, each with two test-retest acquisitions) with both non-contrast scans and ground truth GBCA-uptake maps, is available on GitHub (link to be announced). The scripts that predict GBCA-uptake maps from non-contrast scans, as well as the script performing quantitative evaluations, are included. All code and data (except for those from public datasets) are proprietary and managed by the Columbia Technology Ventures Office of Intellectual Property. The custom training code and large-scale datasets are not publicly available.
