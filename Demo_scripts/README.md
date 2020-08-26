@@ -25,7 +25,7 @@ python generate_new_predictions.py
 
 ### verify_old_new_predictions_identical.py
 
-This script, as a supplement to the previous script, verifies that the newly generated GBCA-predicted scans are indeed the same as what we generated before using the same inputs and same model. It loads the old and new scans and confirm that not a single voxel is different in each of the scans.
+This script, as a supplement to the previous script, verifies that the newly generated GBCA-predicted scans are indeed the same as what we generated before using the same inputs and same model. It loads the old and new scans and confirms that not a single voxel is different in each of the scans.
 
 Execution:
 ```
