@@ -14,7 +14,7 @@ This script runs the trained Healthy Human Brain Model to generate GBCA-predicte
 1. It follows the processes specified in the solver file (../Healthy_Human_Brain_Model/deep_learning_model/solver.py).
 2. It loads the model weights (../Healthy_Human_Brain_Model/saved_model_weights/ResAttU_Net-SGD-0.1000-CVPR_Adaptive_loss-4-epoch18.pkl) into the Residual Attention U-Net implemented in the network file (../Healthy_Human_Brain_Model/deep_learning_model/network.py)
 3. It grabs the non-contrast scans (../Test_retest_data_complete/NatureBME_share_nonContrast/EVERYTHING.nii.gz) and loads them into the model using the data loader defined in (../Healthy_Human_Brain_Model/deep_learning_model/data_loader.py).
-4. It uses the model and weights to generate GBCA-predicted maps and store them in (../Newly_generated_prediction/).
+4. It uses the model and weights to generate GBCA-predicted maps and stores them in (../Newly_generated_prediction/).
 
 The resulting scans shall be identical to those in (../Test_retest_data_complete/NatureBME_share_GBCApredicted/EVERYTHING.nii.gz)
 
