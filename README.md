@@ -1,5 +1,5 @@
 # DeepContrast_Demo
-This is the repository that accompanies the submission **Deep Learning Substitutes Gadolinium in Detecting Functional and Structural Brain Lesions with MRI**, *under review at Nature Biomedical Engineering*.
+This is the repository that accompanies the submission **Deep Learning of Gadolinium Contrast for Mapping Cerebral Blood Volume from Single-Modal Non-Contrast MRI**, *under review at Nature Communications* (Sep 3rd, 2021).
 
 Due to file size limits of GitHub (nothing > 100 MB allowed), the NifTI scans and model weights cannot be uploaded to this repository. Instead, we stored them in [Google Drive](https://drive.google.com/drive/folders/1l5GU6E0iCHbs24ZNzN6uIQgbQud1DZ3e?usp=sharing) and currently these data and files shall be publicly available. Once missing files and model weights are downloaded from Google Drive and placed at the correct locations, an experienced deep learning researcher shall be able to replicate the results we reported in the test-retest reliability study.
 
@@ -67,16 +67,16 @@ conda install cudatoolkit=10.2 -c pytorch
 ```
 
 ## Authors
-Chen Liu*, Nanyan Zhu*, Dipika Sikka, Xinyang Feng, Haoran Sun, Xueqing Liu, Sabrina Gjerswold-Selleck, Hong-Jian Wei, Pavan S. Upadhyayula, Angeliki Mela, Peter D. Canoll, Cheng-Chia Wu, Andrew F. Laine, Jeffrey A. Lieberman, Frank A. Provenzano, Scott A. Small, Jia Guo, for the Alzheimer’s Disease Neuroimaging Initiative.
+Chen Liu*, Nanyan Zhu*, Junhao Zhang, Dipika Sikka, Xinyang Feng, Haoran Sun, Xueqing Liu, Sabrina Gjerswold-Selleck, Hong-Jian Wei, Pavan S. Upadhyayula, Angeliki Mela, Peter D. Canoll, Cheng-Chia Wu, Andrew F. Laine, Jeffrey A. Lieberman, Frank A. Provenzano, Scott A. Small, Jia Guo, for the Alzheimer’s Disease Neuroimaging Initiative.
 
 **Chen Liu and Nanyan Zhu contributed equally to this work and are joint first authors.**
 
 **Correspondance: Jia Guo (jg3400@columbia.edu).**
 
-## Link to Manuscript
-Liu C. & Zhu N., et al. Deep Learning Substitutes Gadolinium in Detecting Functional and Structural Brain Lesions with MRI. 26 August 2020, PREPRINT (Version 1) available at Research Square. Under Review at Nature Research. https://doi.org/10.21203/rs.3.rs-56518/v1
+## Manuscript
+Liu C. & Zhu N., et al. Deep Learning of Gadolinium Contrast for Mapping Cerebral Blood Volume from Single-Modal Non-Contrast MRI. 3 September 2021, Nature Research In-Review Preprint Server.
 
-Please note that the version above is not the most up-to-date version yet. There are minor differences between the one above and the latest version submitted to the chief editor via the manuscript tracking system.
+Prior submission: Liu C. & Zhu N., et al. Deep Learning Substitutes Gadolinium in Detecting Functional and Structural Brain Lesions with MRI. 26 August 2020, Nature Research In-Review Preprint Server. https://doi.org/10.21203/rs.3.rs-56518/v1
 
 ## Code availability
 The trained Healthy Human Brain Model, alongside the test-retest reliability dataset (n = 11, each with two test-retest acquisitions) with both non-contrast scans and ground truth GBCA-uptake maps, is available on GitHub (link to be announced). The scripts that predict GBCA-uptake maps from non-contrast scans, as well as the script performing quantitative evaluations, are included. All code and data (except for those from public datasets) are proprietary and managed by the Columbia Technology Ventures Office of Intellectual Property. The custom training code and large-scale datasets are not publicly available.
