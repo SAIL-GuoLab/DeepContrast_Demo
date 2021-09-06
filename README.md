@@ -67,7 +67,7 @@ conda install cudatoolkit=10.2 -c pytorch
 ```
 
 ## Authors
-Chen Liu*, Nanyan Zhu*, Junhao Zhang, Dipika Sikka, Xinyang Feng, Haoran Sun, Xueqing Liu, Sabrina Gjerswold-Selleck, Hong-Jian Wei, Pavan S. Upadhyayula, Angeliki Mela, Peter D. Canoll, Cheng-Chia Wu, Andrew F. Laine, Jeffrey A. Lieberman, Frank A. Provenzano, Scott A. Small, Jia Guo, for the Alzheimer’s Disease Neuroimaging Initiative.
+Chen Liu*, Nanyan Zhu*, Junhao Zhang, Dipika Sikka, Haoran Sun, Xinyang Feng, Xueqing Liu, Sabrina Gjerswold-Selleck, Tal Nuriel, Hong-Jian Wei, Cheng-Chia Wu, Tommy Vaughan, Andrew F. Laine, Jeffrey A. Lieberman, Frank A. Provenzano, Scott A. Small, Jia Guo, for the Alzheimer’s Disease Neuroimaging Initiative.
 
 **Chen Liu and Nanyan Zhu contributed equally to this work and are joint first authors.**
 
