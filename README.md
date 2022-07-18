@@ -1,5 +1,5 @@
 # DeepContrast_Demo
-This is the repository that accompanies the submission **Deep Learning of Gadolinium Contrast for Mapping Cerebral Blood Volume from Single-Modal Non-Contrast MRI**, *under review at Nature Communications* (Sep 3rd, 2021).
+This is the repository that accompanies the manuscript "Deep Learning of MRI Contrast Enhancement for Mapping Cerebral Blood Volume from Single-Modal Non-Contrast Scans of Aging and Alzheimer's Disease Brains" accepted for publication in Frontiers in Aging Neuroscience, section Neurocognitive Aging and Behavior (July-18-2022).
 
 Due to file size limits of GitHub (nothing > 100 MB allowed), the NifTI scans and model weights cannot be uploaded to this repository. Instead, we stored them in [Google Drive](https://drive.google.com/drive/folders/1l5GU6E0iCHbs24ZNzN6uIQgbQud1DZ3e?usp=sharing) and currently these data and files shall be publicly available. Once missing files and model weights are downloaded from Google Drive and placed at the correct locations, an experienced deep learning researcher shall be able to replicate the results we reported in the test-retest reliability study.
 
@@ -67,16 +67,14 @@ conda install cudatoolkit=10.2 -c pytorch
 ```
 
 ## Authors
-Chen Liu*, Nanyan Zhu*, Junhao Zhang, Dipika Sikka, Haoran Sun, Xinyang Feng, Xueqing Liu, Sabrina Gjerswold-Selleck, Tal Nuriel, Hong-Jian Wei, Cheng-Chia Wu, Tommy Vaughan, Andrew F. Laine, Jeffrey A. Lieberman, Frank A. Provenzano, Scott A. Small, Jia Guo, for the Alzheimer’s Disease Neuroimaging Initiative.
+Chen Liu*, Nanyan Zhu*, Haoran Sun, Junhao Zhang, Xinyang Feng, Sabrina Gjerswold-Selleck, Dipika Sikka, Xuemin Zhu, Xueqing Liu, Tal Nuriel, Hong-Jian Wei, Cheng-Chia Wu, J. Thomas Vaughan, Andrew F Laine, Frank A Provenzano, Scott A Small, Jia Guo, for the Alzheimer’s Disease Neuroimaging Initiative.
 
 **Chen Liu and Nanyan Zhu contributed equally to this work and are joint first authors.**
 
 **Correspondance: Jia Guo (jg3400@columbia.edu).**
 
 ## Manuscript
-Liu C. & Zhu N., et al. Deep Learning of Gadolinium Contrast for Mapping Cerebral Blood Volume from Single-Modal Non-Contrast MRI. 3 September 2021, Nature Research In-Review Preprint Server.
-
-Prior submission: Liu C. & Zhu N., et al. Deep Learning Substitutes Gadolinium in Detecting Functional and Structural Brain Lesions with MRI. 26 August 2020, Nature Research In-Review Preprint Server. https://doi.org/10.21203/rs.3.rs-56518/v1
+Liu C. & Zhu N., et al. Deep Learning of MRI Contrast Enhancement for Mapping Cerebral Blood Volume from Single-Modal Non-Contrast Scans of Aging and Alzheimer's Disease Brains.
 
 ## Code availability
 The trained Healthy Human Brain Model, alongside the test-retest reliability dataset (n = 11, each with two test-retest acquisitions) with both non-contrast scans and ground truth GBCA-uptake maps, is available on GitHub (link to be announced). The scripts that predict GBCA-uptake maps from non-contrast scans, as well as the script performing quantitative evaluations, are included. All code and data (except for those from public datasets) are proprietary and managed by the Columbia Technology Ventures Office of Intellectual Property. The custom training code and large-scale datasets are not publicly available.
